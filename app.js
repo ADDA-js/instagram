@@ -23,7 +23,7 @@ $(document).ready(function() {
   $.ajax({
     url: 'https://api.instagram.com/v1/users/self/?access_token='+token,
     method: 'GET';
-  }).done();
+  }).done()
 });
 
 var return = function(data){
