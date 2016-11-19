@@ -3,6 +3,9 @@
 ## Description
 This is made to get a access token for the Instagram API. Once you have a token, you can use ajax to get a json object the server.
 
+## Get a Token
+Login with your instagram account [here](https://adda-js.github.io/instagram/) to get a token
+
 ## Example
 Once you have a token, create an app.js with the code below.
 
@@ -33,4 +36,4 @@ function render(data) {
 ```
 
 ## Resources
-- [Instagram API Endpoints](https://www.instagram.com/developer/endpoints/);
+- [Instagram API Endpoints](https://www.instagram.com/developer/endpoints/)
