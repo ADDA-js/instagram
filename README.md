@@ -1,7 +1,7 @@
 # Instagram
 
 ## Description
-This is made to get a access token for the Instagram API. Once you have a token, you can use ajax to get a json object the server.
+This is made to get a access token for the Instagram API. Once you have a token, you can use ajax to get a json object from the API.
 
 ## Get a Token
 Login with your instagram account [here](https://adda-js.github.io/instagram/) to get a token
