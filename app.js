@@ -18,14 +18,13 @@ $(document).ready(function() {
 
   //this will get the url and split it at the =, the second item is the token
   var token = window.location.href.split('=')[1];
-  //the token is what we need for the api
 
   $.ajax({
     url: 'https://api.instagram.com/v1/users/self/?access_token='+token,
-    method: 'GET';
-  }).done()
+    method: 'GET'
+  }).done(render)
 });
 
-var return = function(data){
+var render = function(data){
   debugger;
 }
