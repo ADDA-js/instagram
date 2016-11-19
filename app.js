@@ -21,7 +21,7 @@ $(document).ready(function() {
   //the token is what we need for the api
 
   $.ajax({
-    url: 'https://api.instagram.com/v1/tags/search?q=snowy&access_token='+token,
+    url: 'https://api.instagram.com/v1/users/self/?access_token='+token,
     method: 'GET';
   }).done();
 });
